@@ -1,0 +1,411 @@
+/*公用*/
+.wrap{
+	width:1000px;
+	margin:0 auto;
+}
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+/*head样式*/
+.head{
+	width:100%;
+	height:150px;
+}
+.head_top{
+	height:30px;
+	line-height:30px;
+}
+.collection{
+	background:url(../img/黄色五角星.png) no-repeat;
+	background-position-y:6px;
+	
+}
+.collection span{
+	margin-left:20px;
+}
+.logion{
+	margin-right:10px;
+}
+.search_wrap{
+	width:100%;
+	background-color:rgb(29,122,217);
+	height:85px;
+}
+.search img{
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+}
+.search_input{
+	margin-left:147px;
+	width:430px;
+	height:35px;
+	margin-top:25px;
+}
+.input_text1{
+	width:350px;
+	height:35px;
+	padding:0 5px;
+}
+.input_text2{
+	width:70px;
+	height:35px;
+	font-size:14px;
+	background-color:orange;
+}
+.shopcart{
+	width:155px;
+	height:35px;
+	background-color:rgb(255,136,0);
+	line-height:35px;
+	margin-top:25px;
+	margin-right:60px;
+	float:right;
+}
+.shopcart span{
+	font-size:14px;
+	display:block;
+}
+.shop_text{
+	float:left;
+	width:88px;
+	text-indent:40px;
+	padding-right:3px;
+	border-right:2px solid rgb(226,126,0);
+	height:35px;
+	background:url(../img/购物车.png) 10px no-repeat;
+}
+.shop_num{
+	float:right;
+	width:57px;
+	text-indent:20px;
+	padding-right:3px;
+	border-left:2px solid rgb(255,156,1);
+	height:35px;
+	background:url(../img/倒三角箭头.png) 33px no-repeat;
+}
+/*搜索样式结束*/
+.head_list_wrap{
+	width:100%;
+	background:rgb(19,105,192);
+	height:35px;
+	line-height:35px;
+	color:white;
+}
+.head_list_wrap a:link,.head_list_wrap a:visited{
+	color:white;
+}
+.head_list li{
+	float:left;
+	width:100px;
+	text-align:center;
+	font-size:14px;
+}
+.shoplist{
+	width:190px;
+	position:relative;
+}
+.shoplist h3{
+	text-align:center;
+	line-height:35px;
+	font-size:16px;
+}
+.head_list .shoplist i{
+	background:url(../img/下拉箭头.png) no-repeat right center;
+	display:block;
+	height:7px;
+	width:11px;
+	overflow:hidden;
+	margin-top:15px;
+	margin-right:25px;
+}
+.head_list li a{
+	height:35px;
+	display:block;
+	padding:0 35px;
+	color:#FFF;
+}
+.active{
+	background-color:#4593FD;
+}
+/*头部总列表结束*/
+/*弹出列表样式*/
+.shoplist1{
+	background-color:rgb(69,147,253);
+	position:absolute;
+	top:35px;
+	left:0px;
+	width:100%;
+}
+.shoplist3{
+	height:22px;
+	background:url(../img/向右箭头.png) no-repeat center right; 
+}
+.shoplist1 dt .b{
+	font:14px/1 "微软雅黑","microsoft yahei";
+	font-weight:bold;
+}
+.shoplist2{
+	padding:10px 10px;
+	border-bottom:1px solid #3487F2;
+	border-top:1px solid #5AA1FE;
+}
+.shoplist2 a{
+	margin-right:5px;
+}
+.bg_circle{
+	width:48px;height:18px;
+	line-height:20px;
+	padding-top:2px;
+	display:inline-block;
+background:url(../img/合约机背景.png) center no-repeat;
+text-align:center;
+text-decoration:underline;
+}
+/*右侧下拉菜单结束*/
+.list_right{
+	width:568px;
+	border:1px solid lightgrey;
+	position:absolute;
+	top:35px;
+	left:190px;
+}
+.list_content{
+	width:532px;
+	margin-left:20px;
+	margin-top:10px;
+	border-bottom:1px lightgrey solid;
+	
+}
+.list_content a:link,.list_content a:visited{
+	color:black;
+}
+.list_right dt{
+	color:#4b88da;
+	font-weight:bold;
+	width:55px;
+	float:left;
+	display:inline-block;
+ line-height:24px; 
+}
+.list_right dd{
+line-height:24px; 
+	padding-left:25px;
+}
+.list_right dd a{
+	padding-right:15px;
+}
+/*左侧弹出列表结束*/
+.list_channel{
+	height:26px;
+	background-color:blue;
+	line-height:26px;
+	font-size:12px; 
+	display:inline-block;
+	padding:0 10px 0;
+	margin-left:20px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.list_channel span{
+	background:url(../img/向右箭头.png) no-repeat;
+    display:inline-block;
+    width:11px; 
+    height:7px;
+    margin-left:8px;
+}
+.channel2{
+	margin-left:10px;
+}
+.shoplist2_active{
+	background-color:white;
+	border-left:1px solid rgb(69,147,253);
+}
+.shoplist2_active a:link,.shoplist2_active a:visited{
+	color:black;
+	text-decoration: none;
+}
+.shoplist2_active .shoplist3{background:none;
+}
+/*banner样式*/
+.banner{
+	position:relative;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+.banner_big{
+	width:810px;
+	height:325px;
+	float:right;
+}
+.banner .ul{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+.banner_big .ul{
+	width:810px;
+	height:325px;
+}
+.banner_big .li{
+float:left;
+}
+.banner_big .img{
+	width:810px;
+	height:325px;
+	display:block;
+}
+.img_roll{
+	position:absolute;
+	left:0px;
+	bottom:10px;
+	width:100%;
+	text-align:center;
+}
+.img_roll a{
+	width:20px;
+	height:5px;
+	background-color:white;
+	overflow:hidden;
+	display:inline-block;
+	margin-right:6px;
+}
+.img_roll .roll_active{
+	background-color:orange;
+}
+/*banner结束*/
+.shop_tip{
+	height:44px;
+	line-height:44px;
+	margin-bottom:15px;
+	font:"微软雅黑" 14px;
+}
+.shop_tip img{
+	width:44px;
+	height:44px;
+	float:left;
+}
+.shop_tip h3{
+	float:left;
+	margin-left:15px;
+}
+.shop_tip a{
+	float:right;
+	text-decoration:underline;
+	margin-right:20px;
+}
+/*shoptiptext结束*/
+.tip_left{
+	width:190px;
+	height:400px;
+}
+.tip_right{
+	width:810px;
+	height:400px;
+}
+/*banner_small样式*/
+.banner_small{
+	width:190px;
+	height:400px;
+	float:left;
+}
+.banner_small .ul{
+	width:190px;
+	height:400px;
+}
+.banner_small ul img{
+	width:190px;
+	height:400px;
+	float:left;
+}
+/*右侧图片样式*/
+.tip_top{
+	height:280px;
+	border-top:2px solid lightgrey;
+	width:810px
+	border-right:2px solid lightgrey;
+	border-bottom:2px solid lightgrey;
+}
+.tip_top1{
+	height:280px;
+	border-right:2px solid lightgrey;
+	width:200px;
+}
+.tip_top img{
+	width:134px;
+	height:152px;
+	margin-top:45px;
+	margin-left:30px;
+	display:block;
+}
+.tip_top h3,.tip_lower h3{
+	height:14px;
+	line-height:14px;
+	text-align:center;
+	margin-top:20px;
+	font-weight:bold;
+	font-family: "微软雅黑";
+}
+.tip_top p,.tip_lower1 p{
+	height:12px;
+	line-height:12px;
+	line-height:21px;
+	font-family: "微软雅黑";
+}
+.tip_top p{
+		text-align:center;
+		color:orange;
+}
+.tip_lower{
+	border-bottom:3px solid darkorange;
+	width:808px;
+	height:113px;
+	overflow:hidden;
+}
+.tip_lower1{
+	height:130px;
+	border-right:2px solid lightgrey;
+	width:200px;
+}
+.tip_lower1 img{
+	padding-left:10px;
+	padding-top:20px;
+}
+.tip_text{
+	width:80px;
+	margin:20px 15px;
+}
+.tip_text h4 a:link,.tip_text h4 a:visited{
+	color:orange;
+}
+..tip_lower1 p{
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+}
+.tip_lower h4{
+		width:75px;
+		height:32px;
+		overflow:hidden;
+}
+/*主体内容结束*/
+.copyright{
+	width:100%;
+	height:166px;
+	background-color:rgb(212,212,212);
+	margin:30px 0 8px;
+	text-align:center;
+	padding-top:54px;
+}
+.copyright p{
+	margin-top:10px;
+}
+.copyright img{
+	margin:20px;
+}
+.copyright a{
+	color:black;
+}
